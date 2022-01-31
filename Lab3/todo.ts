@@ -19,10 +19,8 @@ let todos: string[] = ["A", "B", "C"]
 */
 
 function addTask(task: string): number {
-    todos.push(task);
     console.log("added Task to todos!");
-
-    return todos.length;
+    return todos.push(task);
 }
 
 function listAAllTasks() {

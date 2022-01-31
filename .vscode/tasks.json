@@ -4,21 +4,12 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "tsc",
+            "label": "build",
             "type": "shell",
             "command": "tsc",
             "args": [
                 "**/*.ts"
             ],
-            "problemMatcher": []
-        },
-        {
-            "label": "Run",
-            "type": "shell",
-            "dependsOn": [
-                "tsc"
-            ],
-            "command": "node ./Lab3/todo.js",
             "problemMatcher": []
         }
     ]
